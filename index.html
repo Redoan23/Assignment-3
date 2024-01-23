@@ -201,10 +201,10 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
                     <div class="lg:h-96 h-[244px] rounded-lg relative ">
                         <img class="absolute w-full h-full" src="./Images/2.png" alt="">
-                        <div class="absolute w-full h-full rounded-xl bg-gray-800 bg-opacity-20"></div>
+                        <div class="absolute w-full h-full rounded-xl bg-gray-800 bg-opacity-30"></div>
                         <div class=" absolute space-y-2 lg:pt-36 lg:pl-9 p-2 w-96">
                             <h3 class="text-2xl font-bold text-white">Junior Program</h3>
-                            <p class="text-white opacity-75">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                            <p class="text-white opacity-95">Dolor sit amet consectetur. Ut urna diam quis sagittis.
                                 Elit elit
                                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                                 congue sed et in.</p>
@@ -213,10 +213,10 @@
                     </div>
                     <div class="lg:h-96 h-[244px] rounded-lg relative">
                         <img class="absolute w-full h-full" src="./Images/3.png" alt="">
-                        <div class="absolute inset-0 rounded-xl bg-gray-800 bg-opacity-20"></div>
+                        <div class="absolute inset-0 rounded-xl bg-gray-800 bg-opacity-30"></div>
                         <div class=" absolute space-y-2 lg:pt-36 lg:pl-9 p-2 w-96">
                             <h3 class="text-2xl font-bold text-white">Teenager Program</h3>
-                            <p class="text-white opacity-75">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                            <p class="text-white opacity-95">Dolor sit amet consectetur. Ut urna diam quis sagittis.
                                 Elit elit
                                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                                 congue sed et in.</p>
@@ -225,10 +225,10 @@
                     </div>
                     <div class="lg:h-[500px] h-[244px] rounded-lg relative lg:col-span-2">
                         <img class="absolute w-full h-full" src="./Images/4.png" alt="">
-                        <div class="absolute w-full h-full rounded-xl bg-gray-800 bg-opacity-20"></div>
+                        <div class="absolute w-full h-full rounded-xl bg-gray-800 bg-opacity-30"></div>
                         <div class=" absolute space-y-2 lg:pt-64 lg:pl-9 p-2 w-96">
                             <h3 class="text-2xl font-bold text-white">Professional Program</h3>
-                            <p class="text-white opacity-75">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                            <p class="text-white opacity-95">Dolor sit amet consectetur. Ut urna diam quis sagittis.
                                 Elit elit
                                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                                 congue sed et in.</p>
@@ -364,7 +364,8 @@
             <div>
                 <div class="space-y-3">
                     <h3 class="text-4xl text-black font-bold text-center">Clients Questions</h3>
-                    <p class="opacity-80 text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    <p class="opacity-80 text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                        turpis placerat
                         dolor. Purus urna in sit nullam proin. </p>
                 </div>
                 <div class="flex lg:flex-row flex-col mt-12 justify-center mx-auto gap-10 border-2  rounded-xl p-4">
@@ -432,9 +433,10 @@
         <section class="container mx-auto mt-36">
             <div class="space-y-3">
                 <h3 class="text-4xl text-center font-bold">Get in Touch</h3>
-                <p class="text-center opacity-80">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-center opacity-80">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-8">
                 <div class="space-y-3">
                     <div class="bg-green-100 p-8 w-80 rounded-xl">
                         <img class="pb-6" src="./Images/Group 1171275317.png" alt="">
@@ -452,7 +454,39 @@
                         <p>152/1 Mohakhali Wireless Gate</p>
                     </div>
                 </div>
-                <div></div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10 ">
+                    <div class="flex flex-col">
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" class="border-0 rounded-lg bg-gray-100 w-full h-11"
+                            placeholder="Enter Your Full Name">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="email">Your Email</label>
+                        <input type="email" name="email" class="border-0 rounded-lg bg-gray-100 w-full h-11 required"
+                            placeholder="Enter Your Email">
+                    </div>
+
+
+                    <div class="flex flex-col">
+                        <label for="subject">Your Subject</label>
+                        <input type="text" name="subject" class="border-0 rounded-lg bg-gray-100 w-full h-11"
+                            placeholder="Enter Your Subject">
+                    </div>
+
+                    <div class="flex flex-col">
+                        <label for="number">Your Phone Number</label>
+                        <input type="tel" name="number" class="border-0 rounded-lg bg-gray-100 w-full h-11"
+                            placeholder="Enter Your Phone Number">
+                    </div>
+
+                    <div class="flex flex-col lg:col-span-2">
+                        <label for="textarea">Message</label>
+                        <textarea name="textarea" id="" cols="30" rows="10" class="border-2 bg-gray-100"
+                            placeholder="write your message"></textarea>
+                    </div>
+                    <button class="btn bg-color-primary w-auto text-md border-0 text-white lg:col-span-2">Send
+                        Message</button>
+                </div>
             </div>
         </section>
     </main>
